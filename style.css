@@ -87,6 +87,9 @@ nav	{
 	}
 	.main-body	{
 		flex-direction: column;
+		font-size: 0.9rem;
+		margin-top: 50px;
+		margin-left: 20px;
 	}
 
 }
