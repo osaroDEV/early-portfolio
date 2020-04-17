@@ -35,18 +35,23 @@ nav	{
 .main-body	{
 	color: #fff;
 	line-height: 1.5;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 50px;
 }
 
 .name	{
-	font-size: 6rem;
+	font-size: 25vw;
+	line-height: 0.8;
+	margin-bottom: 20px;
 }
 
 .caption	{
 	font-size: 1.5rem;
 }
 
+span {
+  color: #ffcd00;
+}
 .icons a	{
 	margin: 5px;
 }
@@ -92,4 +97,132 @@ nav	{
 		margin-left: 20px;
 	}
 
+}
+
+/* contact.html */
+#contact  {
+  color: #ffffff;
+}
+
+#main  {
+  margin-left: 50px;
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+
+#boxes  {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+#boxes div:hover   {
+	background: lightseagreen;
+	font-size: 1.3rem;
+}
+
+#boxes div  {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 15px;
+  
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+@media screen and (max-width: 768px)   {
+		#boxes   {
+		margin-left: 35px;
+	}
+	
+}
+/* about.html */
+#about  {
+  color: #ffffff;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin: auto;
+  background: red;
+}
+
+#head {
+  padding: 20px;
+  
+}
+
+#top  {
+  margin: 5px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+#top-right  {
+  width: 65%;
+  display: inline-block;
+}
+
+#top-left  {
+  width: 30%;
+  display: inline;
+  background: red;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#container  {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "one two two"
+                        "three four five";
+}
+
+#container div {
+  padding: 20px;
+  text-align: justify;
+}
+.one  {
+  grid-area: one;
+  padding: 40px 1px;
+}
+
+.two  {
+  grid-area: two;
+}
+
+.three  {
+  grid-area: three;
+  background: #8D8D8D;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.four  {
+  grid-area: four;
+  background: #8D8D8D;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.five  {
+  grid-area: five;
+  background: #8D8D8D;
+  margin-left: 5px;
+  margin-right: 5px;
 }
