@@ -2,17 +2,17 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 body	{
 	background: #444;
 	font-family: "Segoe UI", Tahoma, Verdana;
 	height: 100vh;
-	overflow: hidden;
 }
 
 nav	{
-	height: 10vh;
+	height: 5vh;
 	width: 100%;
 	background: lightseagreen;
 }
@@ -40,7 +40,7 @@ nav	{
 }
 
 .name	{
-	font-size: 25vw;
+	font-size: 20vw;
 	line-height: 0.8;
 	margin-bottom: 20px;
 }
@@ -153,76 +153,41 @@ footer {
 
 img {
   height: 200px;
-  width: auto;
+  width: 200px;
   border-radius: 50%;
   margin: auto;
-  background: red;
 }
 
-#head {
-  padding: 20px;
+#header {
+  padding: 40px;
   
 }
 
 #top  {
-  margin: 5px;
+  margi: 10px;
   height: 300px;
   display: flex;
   align-items: center;
 }
 
-#top-right  {
-  width: 65%;
+#one {
+  width: 35%;
   display: inline-block;
 }
 
-#top-left  {
-  width: 30%;
-  display: inline;
-  background: red;
-  box-sizing: border-box;
-  padding: 0;
+#two  {
+  width: 55%;
+  display: inline-block;
+  color: pink;
 }
 
-#container  {
+#bottom  {
   display: grid;
-  grid-auto-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "one two two"
-                        "three four five";
+  grid-template-columns: 1fr 1fr;
 }
 
 #container div {
-  padding: 20px;
+  padding: 10px;
   text-align: justify;
 }
-.one  {
-  grid-area: one;
-  padding: 40px 1px;
-}
-
-.two  {
-  grid-area: two;
-}
-
-.three  {
-  grid-area: three;
-  background: #8D8D8D;
-  margin-left: 5px;
-  margin-right: 5px;
-  
-}
-
-.four  {
-  grid-area: four;
-  background: #8D8D8D;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.five  {
-  grid-area: five;
-  background: #8D8D8D;
-  margin-left: 5px;
-  margin-right: 5px;
-}
+ 
